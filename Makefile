@@ -12,5 +12,7 @@ clear:
 clear-config:
 	@pipenv run python reader.py -clearconfig
 
+ejecutar:
+	@pipenv run python reader.py
 run:
 	@pipenv run python reader.py
